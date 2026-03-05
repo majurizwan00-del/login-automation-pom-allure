@@ -27,7 +27,6 @@ public class Product {
         select.selectByIndex(0);
 
         /* We can use this approach as well.
-
           List<WebElemees = selectnt> valu.getOptions();
           int allValues = values.size();
 
@@ -39,7 +38,6 @@ public class Product {
             System.out.println("Text Values: " + Text);
             select.selectByIndex(i);
         }
-
         */
     }
 }

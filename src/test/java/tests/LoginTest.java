@@ -25,7 +25,6 @@ public class LoginTest extends BaseTest {
         Assert.assertTrue(threadDriver.getTitle().contains("Swag Labs"),
                 "Login failed, Incorrect page title");
 
-        System.out.println("Verification is successfull");
     }
 
     @Test(dataProvider = "invalidLoginData", priority = 2, dataProviderClass = LoginData.class)
